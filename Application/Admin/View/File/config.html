@@ -1,0 +1,153 @@
+<extend name="Base:base" />
+<block name="content">
+	<style type="text/css">
+		.img_cover img{
+			width:18px;
+			transition: all .5s;
+		}
+		.img_cover img:hover{
+			transform: scale(8); 
+		}
+	</style>
+	<!-- page heading start-->
+    <div class="page-heading">
+        <h3>
+            文件统计
+        </h3>
+    </div>
+    <!-- page heading end-->
+
+    <!--body wrapper start-->
+    <div class="wrapper">
+    	<div class="row">
+    		<div class="col-xs-12">
+    			<div class="panel">
+    				<div class="panel-heading">
+    					一键上传 <button type="button" class="btn btn-primary" onclick="uploadAll()">上传</button>
+    				</div>
+	    			<div class="panel-body">
+	    				<table class="table table-bordered">
+	    					<volist name="files" id="f">
+	    						<tr id="tr_{$i}">
+									<td>
+										<form action="{:U('uploadCover')}" id="c_{$i}" method="post" enctype="multipart/form-data" >
+	    									<input type="file" name="cover" value="{$f.cover}" />
+	    								</form>
+	    							</td>
+	    							<td>
+	    								<form action="{:U('uploadFile')}" method="post" id="f_{$i}" enctype="multipart/form-data" >
+	    									<input type="text" name="first_cover" id="first_cover_{$i}">
+											<input type="text" name="cover"  id="file_cover_{$i}"  />
+	    									<input type="hidden" name="cate_id" value="2" />
+	    									<input type="hidden" name="page" value="1">
+	    									<input type="file" name="file" value="{$f.doc}" />
+	    								</form>
+	    							</td>  							
+	    						</tr>
+	    					</volist>
+	    				</table>
+	    			</div>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-xs-12">
+    			<div class="panel">
+    				<div class="panel-heading">
+    					文件中心
+    				</div>
+    				<div class="panel-body">
+    					<table class="table">
+    						<thead>
+    							<tr>
+    								<th>ID</th>
+    								<th>Cover</th>
+    								<th>File</th>
+    								<th>Category</th>
+    								<th>Download</th>
+    								<th>Heart</th>
+    								<th>OPTIONS</th>
+    							</tr>
+    						</thead>
+    						<tbody>
+    							<volist name="lists" id="file">
+    								<tr>
+    									<td>{$file.id}</td>
+    									<td class="img_cover"><img src="{$file.first_cover|getImgPath}?	
+imageMogr2/auto-orient/thumbnail/!20p/blur/1x0/quality/75|imageslim"></td>
+    									<td>{$file.filename}</td>
+    									<td>{$file.cate_id}</td>
+    									<td>{$file.download}</td>
+    									<td>{$file.heart}</td>
+    									<td><button type="button" class="btn btn-primary"><i class="fa fa-fw fa-edit"></i></button></td>
+    								</tr>
+    							</volist>
+    						</tbody>
+    					</table>
+    					{$page}
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+</block>
+<block name="js">
+	<script type="text/javascript">
+		function uploadAll(){
+
+			for (var i = 1; i <= 72; i++) {
+				$("#c_"+i).submit();
+
+				$("#c_"+i).on('submit',function(){
+					var datas = $(this).serialize();
+					var _url  = $(this).attr('action');
+					var method= $(this).attr('method');
+					
+					$(this).ajaxSubmit({
+						data:datas,
+						url:_url,
+
+						dataType:"json",
+						type:method,
+						success:function(data){
+							console.log(i);
+							if(data.status == 1){
+								$("#f_"+i).submit();
+								var covers = $('#file_cover_'+i).val();
+								if(covers.length > 0){
+									$('#file_cover_'+i).val(covers+","+data.id);
+									
+								}else{
+									$('#first_cover_'+i).val(data.id);
+									$('#file_cover_'+i).val(data.id);
+								}
+							}
+						},
+						error:function(e){
+							consloe.log('error_'+i);
+						}
+					})
+					return false;
+				})
+
+				$("#f_"+i).on('submit' ,function(){
+					var datas = $(this).serialize();
+					var _url  = $(this).attr('action');
+					var method= $(this).attr('method');
+					$(this).ajaxSubmit({
+						data:datas,
+						url : _url,
+						dataType:"json",
+						type:method,
+						success:function(data){
+							if(data.status == 1){
+								$("#tr_"+i).addClass('success');
+							}
+						}
+					});
+					return false;
+				});
+			}
+		}
+	</script>
+</block>

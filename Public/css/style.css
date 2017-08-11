@@ -1,0 +1,410 @@
+body{
+	background-color: #fcfcfc;
+	padding-top: 90px;
+}
+a{
+	transition: all 0.6s;
+}
+.navbar-default{
+	background-color: #ffffff;
+	border:0px;
+	margin:0px;
+}
+.navbar-nav > li > a{
+	padding:25px 20px;
+}
+.navbar-brand{
+	display: inline-block;
+	padding:25px 20px;
+}
+.navbar-brand img{
+	width:100%;
+}
+.navbar-mini{
+	box-shadow: 0px 0px 8px #cccccc;
+}
+.navbar-mini .navbar-brand , .navbar-mini .navbar-nav > li > a{
+	padding:15px 20px;
+	animation: mini 0.6s;
+	-moz-animation: mini 0.6s;	/* Firefox */
+	-webkit-animation: mini 0.6s;	/* Safari 和 Chrome */
+	-o-animation: mini 0.6s;	/* Opera */
+}
+@keyframes mini
+{
+from {padding:25px 20px;}
+to {padding:15px 20px;}
+}
+
+@-moz-keyframes mini
+{
+from {padding:25px 20px;}
+to {padding:15px 20px;}
+}
+
+@-webkit-keyframes mini
+{
+from {padding:25px 20px;}
+to {padding:15px 20px;}
+}
+
+@-o-keyframes mini
+{
+from {padding:25px 20px;}
+to {padding:15px 20px;}
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	background-color: #009688;
+	color:#ffffff;
+}
+.header{
+	font-size: 18px;
+}
+.boxs{
+	padding:10px;
+	background-color: #ffffff;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.boxs>.row{
+	margin:10px 0px;
+}
+.boxs>.row:first-child{
+	margin:0px;
+}
+.boxs .col-xs-1,.boxs .col-sm-1,.boxs .col-md-1,.boxs .col-lg-1,.boxs .col-xs-2,.boxs .col-sm-2,.boxs .col-md-2,.boxs .col-lg-2,.boxs .col-xs-3,.boxs .col-sm-3,.boxs .col-md-3, .boxs .col-lg-3, .boxs .col-xs-4, .boxs .col-sm-4, .boxs .col-md-4, .boxs .col-lg-4, .boxs .col-xs-5, .boxs .col-sm-5, .boxs .col-md-5, .boxs .col-lg-5, .boxs .col-xs-6, .boxs .col-sm-6, .boxs .col-md-6, .boxs .col-lg-6, .boxs .col-xs-7, .boxs .col-sm-7, .boxs .col-md-7, .boxs .col-lg-7, .boxs .col-xs-8, .boxs .col-sm-8, .boxs .col-md-8, .boxs .col-lg-8, .boxs .col-xs-9, .boxs .col-sm-9, .boxs .col-md-9, .boxs .col-lg-9, .boxs .col-xs-10, .boxs .col-sm-10, .boxs .col-md-10, .boxs .col-lg-10, .boxs .col-xs-11, .boxs .col-sm-11, .boxs .col-md-11, .boxs .col-lg-11, .boxs .col-xs-12, .boxs .col-sm-12, .boxs .col-md-12, .boxs .col-lg-12{
+	padding:0px;
+}
+
+.box{
+	width:100%;
+	transition: all 0.6s; 
+	z-index:1;
+	position: relative;
+	border:5px solid transparent;
+}
+.box img{
+	width:100%;
+}
+.box .mask{
+	width:100%;
+	background-color: rgba(0 , 0 , 0 ,0.6);
+	color:#fff;
+	position: absolute;
+	bottom: 0px;
+	left:0px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+
+.box .mask span{
+	display: inline-block;
+	padding:15px 8px;
+	cursor: pointer;
+}
+.box:hover{
+    transform: scale(1.1);  
+	border-color:#ffffff;
+	box-shadow: 0px 0px 8px #333;
+	z-index: 999;
+}
+.box:hover .mask{
+	opacity: 1;
+}
+.box .row{
+	margin:0px;
+}
+
+.page{
+	margin-bottom: 10px;
+	background-color: #ffffff;
+	text-align: center;
+}
+.pagination > li > a, .pagination > li > span{
+	padding:10px 20px;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+	background-color: #009688;
+}
+
+.header , .footer,.download{
+	padding:20px;
+	background-color: #ffffff;
+}
+
+/****** 详情页 ***********/
+.detail{
+	background-color: transparent;
+	margin-bottom: 10px;
+}
+.safe{
+	width:14px;
+	display: inline-block;
+}
+.safe img{
+	width:100%;
+}
+.detail-cover{
+	width:100%;
+	height: auto;
+	padding:20px;
+	background-color: #ffffff;
+}
+.detail-cover img{
+	width:100%;
+	border:1px solid #f3f4f5;
+}
+
+.detail-infos{
+	border-top:3px solid #009688;
+	background-color: #ffffff;
+}
+.pc_browser .detail-fixed{
+	position: fixed;
+}
+.details{
+	padding:10px 20px;
+}
+.detail-title h1{
+	font-size: 20px;
+	margin:0px;
+	padding:20px;
+	background-color: #f3f3f3;
+}
+.detail-intro{
+	color:#999;
+	padding:20px 0px;
+}
+.detail-tags{
+	padding-bottom: 15px;
+}
+.detail-tags a{
+	display: inline-block;
+	padding:2px 4px;
+	text-decoration: none;
+	border-top:1px solid transparent;
+	border-bottom:1px solid transparent;
+	color:#009688;
+}
+
+.detail-tags a:hover{
+	border-color:#009688;
+}
+.detail-down-heart{
+	padding-top: 15px;
+}
+.detail-down-heart .row{
+	padding-bottom: 15px;
+}
+.detail-options{
+	width:100%;
+	height: auto;
+	overflow:hidden;
+}
+.detail-options .btn{
+	width:100%;
+}
+
+
+/************ 下载 **************/
+.download{
+	margin-top:0px;
+	margin-bottom: 20px;
+}
+.download .download-img{
+	width:100px;
+	display: inline-block;
+}
+.download .download-img img{
+	width:100%;
+}
+
+.recommend{
+	width:100%;
+	margin:0 auto;
+}
+
+/******************************/
+.full-content h1{
+	font-size: 22px;
+}
+
+.login-register{
+	background-color: #ffffff;
+}
+.login-register .navbar{
+	box-shadow: 0px 0px 8px #ccc;
+}
+.account-form{
+	padding:80px 20px 30px;
+}
+.account-form .form-group{
+	width: 100%;
+}
+
+.account-form .form-group .form-control{
+	border-color:#f4f5f6;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	height: 44px;
+}
+.account-form .form-group .form-control:focus{
+	outline: 0;
+	box-shadow: none;
+}
+.traggle p{
+	padding:20px 0px;
+}
+.account-form .form-group button{
+	width:100%;
+	border-radius:4px;
+}
+#verify{
+	cursor: pointer;
+}
+
+/************  按钮  *************/
+.btn{
+	border:0px;
+	border-radius: 0px;
+	padding-top:12px;
+	padding-bottom: 12px;
+}
+.btn.btn-primary{
+	background-color: #009688;
+}
+.dropdown-menu{
+	border:0px;
+	padding:0px;
+}
+
+.dropdown-menu > li > a{
+	padding:10px 20px;
+}
+.ucenter{
+	padding:10px 20px;
+	background-color: #ffffff;
+}
+.ucenter .table{
+	margin:0px;
+}
+.ucenter .table td{
+	border:0px;
+}
+.profile-title{
+	width:86px;
+	color:#999;
+}
+img.user_avatar{
+	width:18px;
+	height:18px;
+	border-radius: 100%;
+}
+
+.ucenter-nickname span{
+	display: inline-block;
+	padding-left: 10px;
+}
+img.ucenter_avatar{
+	border-radius: 100%;
+	width:60px;
+	box-shadow: 0px 0px 8px #f3f4f4;
+}
+
+.uc-leftbar{
+	border-right: 1px solid #f0f0f0;
+}
+.uc-leftbar ul{
+	list-style: none;
+}
+
+.uc-leftbar ul li a{
+	display: inline-block;
+	padding:10px 10px;
+	text-decoration: none;
+}
+.uc-leftbar ul li:first-child a{
+	margin-top:10px;
+}
+
+.ucenter .edit-zone input,.ucenter .edit-zone select{
+	display: none;
+}
+.ucenter .edit-zone .options{
+	float: right;
+}
+.ucenter .avatar_zone,.ucenter .avatar_current{
+	display: inline-block;
+	width:60px;
+	position: relative;
+	border-radius: 100%;
+
+}
+.ucenter .avatar_current .mask{
+	background-color: rgba(0 , 0 ,0 , 0.2);
+	width:60px;
+	height: 60px;
+	position: absolute;
+	top:0px;
+	left:0px;
+	display: none;
+	border-radius: 100%;
+	cursor: pointer;
+}
+.ucenter .avatar_current .mask a{
+	font-size: 16px;
+	color:#ffffff;
+	background-color: rgba(0,0,0,0.5);
+	display: inline-block;
+	padding:5px;
+	margin-top:15px;
+	border-radius: 100%;
+}
+.ucenter .avatar_current:hover .mask{
+	display: inline-block;
+}
+.ucenter .avatar_current img{
+}
+.ucenter .avatar_select_zone{
+	display: none;
+	width:80px;
+	position: absolute;
+	z-index: 88;
+	top:65px;
+	left:-10px;
+	height: 250px;
+	overflow-y: scroll;
+	overflow-x:hidden;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 8px #f3f4f5;
+	padding:10px;
+}
+.ucenter .avatar_select_zone img{
+	width:100%;
+	cursor: pointer;
+}
+.ucenter .index-frame{
+	width:100%;
+	border:none;
+	height: 100%;
+}
+
+.ucenter .avatar_select_zone::-webkit-scrollbar {
+		  width: 5px;
+	} /* 这是针对缺省样式 (必须的) */
+.ucenter .avatar_select_zone::-webkit-scrollbar-track {
+		  background-color: #f3f4f5;
+	} /* 滚动条的滑轨背景颜色 */
+
+.ucenter .avatar_select_zone::-webkit-scrollbar-thumb {
+		  background-color: rgba(0, 0, 0, 0.1); 
+	} /* 滑块颜色 */
+
+.ucenter .avatar_select_zone::-webkit-scrollbar-button {
+		  background-color: #ffffff;
+	} /* 滑轨两头的监听按钮颜色 */
+
+.ucenter .avatar_select_zone::-webkit-scrollbar-corner {
+		  background-color: black;
+	} /* 横向滚动条和纵向滚动条相交处尖角的颜色 */

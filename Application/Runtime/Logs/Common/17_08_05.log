@@ -1,0 +1,20 @@
+[ 2017-08-05T01:31:46+08:00 ] ::1 /jianli/Public/js/notification.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载模块:Public
+
+[ 2017-08-05T19:39:44+08:00 ] ::1 /jianli/u
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004639s ]
+ERR: 无法加载模块:U
+NOTIC: [2] include(./404.html): failed to open stream: No such file or directory G:\www\jianli\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening './404.html' for inclusion (include_path='C:\xampp\php\PEAR') G:\www\jianli\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2017-08-05T19:40:28+08:00 ] ::1 /jianli/u
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载模块:U
+

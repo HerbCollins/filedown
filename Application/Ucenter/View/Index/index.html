@@ -1,0 +1,44 @@
+<extend name="Common@Base:base" />
+<block name="css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/dcalendar.picker.css" />
+</block>
+<block name="content">
+	<include file="profile" />
+	<div class="container ucenter" style="margin-top:10px;">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2 text-right uc-leftbar">
+				<include file="leftnav" />
+			</div>
+			<div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
+				<div class="row">
+					<div class="col-xs-12">
+						<h3>{$type}</h3>
+						<hr>
+						<volist name="list" id="file">
+							<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+								<div class="box">
+									<a href="{:U('Home/File/detail',array('id'=>encode($file['id'])))}"  target="_blank"><img src="{$file.first_cover|getImgPath}?	
+				imageMogr2/auto-orient/thumbnail/!20p/blur/1x0/quality/75|imageslim" title="知图网简历模板" alt="知图网简历模板免费下载" ></a>
+								</div>
+							</div>
+						</volist>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="page">
+							<nav aria-label="Page navigation">
+								{$page}
+							</nav>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+
+	</div>
+</block>
+<block name="js">
+	<script type="text/javascript" src="__PUBLIC__/js/dcalendar.picker.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/ucenter.js"></script>
+</block>

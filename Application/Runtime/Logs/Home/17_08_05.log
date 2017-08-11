@@ -1,0 +1,2019 @@
+[ 2017-08-05T02:07:34+08:00 ] ::1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0031s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2017-08-05T10:12:35+08:00 ] ::1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.043186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043268s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0023s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.228945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.228997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.039156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020531s ]
+
+[ 2017-08-05T19:08:37+08:00 ] ::1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0025s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.024038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009445s ]
+
+[ 2017-08-05T19:50:42+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0037s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0023s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003700s ]
+
+[ 2017-08-05T19:50:44+08:00 ] ::1 /jianli/index.php/Home/File/download/param/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 ) ORDER BY download DESC LIMIT 0,8   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SELECT `first_cover` FROM `wm_file` WHERE `id` = 10002 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0040s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2017-08-05T19:50:50+08:00 ] ::1 /jianli/index.php/Home/File/toDown.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0022s ]
+SQL: SELECT `savepath` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `wm_file` SET `download`=download+1 WHERE `id` = 10002 AND `status` = 1 [ RunTime:0.0042s ]
+
+[ 2017-08-05T19:52:51+08:00 ] ::1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0024s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-08-05T19:56:42+08:00 ] ::1 /jianli/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0024s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-08-05T21:17:24+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0023s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2017-08-05T21:19:06+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0024s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2017-08-05T22:05:40+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0025s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-08-05T22:15:03+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001993s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0029s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020936s ]
+
+[ 2017-08-05T22:15:40+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0022s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2017-08-05T22:16:00+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2017-08-05T22:18:23+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0023s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2017-08-05T22:19:45+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0024s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-08-05T22:20:28+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0024s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2017-08-05T22:20:44+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0024s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2017-08-05T22:22:04+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0022s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2017-08-05T22:28:38+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0023s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2017-08-05T22:32:29+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0025s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2017-08-05T22:33:32+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2017-08-05T22:58:35+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0029s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2017-08-05T22:59:28+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0029s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-08-05T23:27:16+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020287s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0029s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020530s ]
+
+[ 2017-08-05T23:27:17+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0048s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-08-05T23:27:23+08:00 ] ::1 /jianli/index.php/Home/File/download/param/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 ) ORDER BY download DESC LIMIT 0,8   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0047s ]
+SQL: SELECT `first_cover` FROM `wm_file` WHERE `id` = 10002 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0036s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-08-05T23:27:29+08:00 ] ::1 /jianli/index.php/Home/File/toDown.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT `savepath` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `wm_file` SET `download`=download+1 WHERE `id` = 10002 AND `status` = 1 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `wm_download` [ RunTime:0.0027s ]
+SQL: INSERT INTO `wm_download` (`uid`,`fid`,`download_at`) VALUES ('9','10002','2017-08-05 23:27:29') [ RunTime:0.0017s ]
+
+[ 2017-08-05T23:27:57+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2017-08-05T23:28:08+08:00 ] ::1 /jianli/index.php/Home/File/download/param/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 ) ORDER BY download DESC LIMIT 0,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0032s ]
+SQL: SELECT `first_cover` FROM `wm_file` WHERE `id` = 10002 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0040s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2017-08-05T23:28:14+08:00 ] ::1 /jianli/index.php/Home/File/toDown.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT `savepath` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `wm_file` SET `download`=download+1 WHERE `id` = 10002 AND `status` = 1 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `wm_download` [ RunTime:0.0027s ]
+SQL: INSERT INTO `wm_download` (`uid`,`fid`,`download_at`) VALUES ('9','10002','2017-08-05 23:28:14') [ RunTime:0.0014s ]
+
+[ 2017-08-05T23:28:29+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0034s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-08-05T23:28:31+08:00 ] ::1 /jianli/index.php/Home/File/download/param/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 ) ORDER BY download DESC LIMIT 0,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0041s ]
+SQL: SELECT `first_cover` FROM `wm_file` WHERE `id` = 10002 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2017-08-05T23:28:37+08:00 ] ::1 /jianli/index.php/Home/File/toDown.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: SELECT `savepath` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `wm_file` SET `download`=download+1 WHERE `id` = 10002 AND `status` = 1 [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `wm_download` [ RunTime:0.0026s ]
+SQL: INSERT INTO `wm_download` (`uid`,`fid`,`download_at`) VALUES ('9','10002','2017-08-05 23:28:37') [ RunTime:0.0013s ]
+
+[ 2017-08-05T23:28:43+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-08-05T23:28:44+08:00 ] ::1 /jianli/index.php/Home/File/download/param/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-08-05T23:28:44+08:00 ] ::1 /jianli/index.php/Home/File/full_tips.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-08-05T23:30:12+08:00 ] ::1 /jianli/index.php/Home/File/full_tips.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::assign(), called in G:\www\jianli\Application\Home\Controller\FileController.class.php on line 97 and defined G:\www\jianli\ThinkPHP\Library\Think\Controller.class.php 第 121 行.
+NOTIC: [8] Undefined variable: name G:\www\jianli\ThinkPHP\Library\Think\Controller.class.php 第 122 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2017-08-05T23:30:14+08:00 ] ::1 /jianli/index.php/Home/File/full_tips.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::assign(), called in G:\www\jianli\Application\Home\Controller\FileController.class.php on line 97 and defined G:\www\jianli\ThinkPHP\Library\Think\Controller.class.php 第 121 行.
+NOTIC: [8] Undefined variable: name G:\www\jianli\ThinkPHP\Library\Think\Controller.class.php 第 122 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2017-08-05T23:30:31+08:00 ] ::1 /jianli/index.php/Home/File/full_tips.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-08-05T23:30:44+08:00 ] ::1 /jianli/index.php/Home/File/full_tips.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-08-05T23:31:46+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-08-05T23:33:13+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-08-05T23:34:01+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0045s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2017-08-05T23:34:14+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0031s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-08-05T23:34:19+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0026s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-08-05T23:35:02+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0025s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-08-05T23:48:39+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-08-05T23:51:35+08:00 ] ::1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0029s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2017-08-05T23:51:36+08:00 ] ::1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wm_file` WHERE ( status = 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wm_file` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(heart) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(download) AS tp_sum FROM `wm_file` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-08-05T23:51:38+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0050s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2017-08-05T23:51:52+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0028s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-08-05T23:52:13+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-08-05T23:53:12+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-08-05T23:53:23+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0037s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-08-05T23:54:58+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0043s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-08-05T23:55:07+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2017-08-05T23:55:35+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0036s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0025s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-08-05T23:55:46+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0028s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0026s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2017-08-05T23:56:18+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0028s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0026s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-08-05T23:56:38+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0039s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-08-05T23:56:44+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0036s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2017-08-05T23:57:08+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0028s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-08-05T23:57:34+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0026s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-08-05T23:57:40+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0038s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0032s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-08-05T23:57:56+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-08-05T23:58:13+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-08-05T23:59:10+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0034s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-08-05T23:59:41+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2017-08-05T23:59:53+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/-WUYiul1Hk7kYxAV4fGp0Q2hM70LvkTBZum3GqbNSN4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10002 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('6')  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+

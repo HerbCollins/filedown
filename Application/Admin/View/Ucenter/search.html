@@ -1,0 +1,112 @@
+<extend name="Base:base" />
+<block name="content">
+	<div class="page-heading">
+		<h3>
+            搜索
+        </h3>
+        <ul class="breadcrumb">
+            <li>
+                <a href="#">搜索</a>
+            </li>
+        </ul>
+	</div>
+    <div class="wrapper">
+        <div class="row">
+        	<div class="col-xs-12">
+        		<div class="panel">
+        			<div class="panel-body">
+        				<div class="row">
+        					<form action="" method="post" id="search">
+	        					<div class="col-xs-8">
+	        						<input type="email" class="form-control" name="email" />
+	        					</div>
+	        					<div class="col-xs-4">
+	        						<button type="submit" class="btn btn-primary">提交</button>
+	        					</div>
+        					</form>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-xs-12">
+
+        		<div class="panel panel-primary">
+        			<div class="panel-heading">
+        				搜索结果
+        			</div>
+        			<div class="panel-body">
+        				<table class="table table-hover">
+        					<thead>
+	        					<tr>
+	        						<th>ID</th>
+	        						<th>邮箱</th>
+	        						<th>昵称</th>
+	        						<th>VIP</th>
+	        						<th>操作</th>
+	        					</tr>	
+        					</thead>
+        					<tbody id="result"></tbody>
+        				</table>
+        			</div>
+        		</div>
+
+        	</div>
+        </div>
+    </div>
+</block>
+<block name="js">
+	<script type="text/javascript">
+		$("#search").submit(function(){
+			var _email = $("input[name='email']").val();
+			var _url   = $(this).attr('action');
+			var _method= $(this).attr('method');
+
+			if(_email.length == 0){
+				message('email不能为空' , 0);
+				return false;
+			}
+			datas = {
+				'email' : _email
+			}
+			$.ajax({
+				url:_url,
+				type:_method,
+				dataType:"json",
+				data:datas,
+				success:function(data){
+					if(data.status == 1){
+						var da = data.data;
+						var tr = '<tr><td>'+da.id+'</td><td>'+da.email+'</td><td>'+da.nickname+'</td><td>'+ da.vip +'</td><td><button type="button" class="btn btn-primary" onclick="tovip(this)" data-id="'+da.id+'" data-email="'+da.email+'" data-nickname="'+da.nickname+'">升级VIP</button></td></tr>';
+						$('#result').html(tr);
+					}else{
+						message(data.message , data.status);
+					}
+				},
+				error:function(){
+					message('连接失败' , 0);
+				}
+			})
+			return false;
+		});
+
+		function tovip(obj){
+			var _id 		= $(obj).data('id');
+			var _email 		= $(obj).data('email');
+			var _nickname 	= $(obj).data('nickname');
+			var _data = {
+				'id' 		: _id,
+				'email' 	: _email,
+				'nickname' 	: _nickname
+			}
+			$.ajax({
+				url:"{:U('tovip')}",
+				data:_data,
+				type:"post",
+				dataType:"json",
+				success:function(data){
+					message(data.message , data.status);
+				}
+			})
+		}
+	</script>
+</block>

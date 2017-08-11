@@ -1,0 +1,52 @@
+<extend name="Common@Base:base" />
+<block name="css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/dcalendar.picker.css" />
+</block>
+<block name="content">
+	<include file="profile" />
+	<div class="container ucenter" style="margin-top:10px;">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2 text-right uc-leftbar">
+				<include file="leftnav" />
+			</div>
+			<div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-5 col-lg-8">
+						<h3>修改密码</h3>
+						<hr>
+						<form action="{:U()}" id="changepwd" method="post" class="form-horizontal">
+							<div class="form-group">
+							    <label for="org_pwd" class="col-sm-2 control-label">原始密码</label>
+							    <div class="col-sm-10">
+							      <input type="password" class="form-control" id="org_pwd" name="orgpwd" placeholder="原始密码">
+							    </div>
+							</div>
+							<div class="form-group">
+							    <label for="newpwd" class="col-sm-2 control-label">新密码</label>
+							    <div class="col-sm-10">
+							      <input type="password" class="form-control" id="newpwd" name="newpwd" placeholder="新密码">
+							    </div>
+							</div>
+							<div class="form-group">
+							    <label for="checkpwd" class="col-sm-2 control-label">确认密码</label>
+							    <div class="col-sm-10">
+							      <input type="password" class="form-control" id="checkpwd" name="checkpwd" placeholder="确认密码">
+							    </div>
+							</div>
+
+							<div class="form-group text-center">
+							    <button class="btn btn-primary">更改</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</block>
+
+<block name="js">
+	<script type="text/javascript" src="__PUBLIC__/js/dcalendar.picker.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/ucenter.js"></script>
+</block>

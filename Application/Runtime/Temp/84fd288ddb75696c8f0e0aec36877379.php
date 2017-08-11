@@ -1,0 +1,3 @@
+<?php
+//000000000000a:5:{i:0;a:4:{s:2:"id";s:1:"1";s:8:"category";s:6:"首页";s:4:"upid";s:1:"0";s:6:"status";s:1:"1";}i:1;a:4:{s:2:"id";s:1:"2";s:8:"category";s:10:"Word简历";s:4:"upid";s:1:"1";s:6:"status";s:1:"1";}i:2;a:4:{s:2:"id";s:1:"3";s:8:"category";s:9:"PSD简历";s:4:"upid";s:1:"1";s:6:"status";s:1:"1";}i:3;a:4:{s:2:"id";s:1:"4";s:8:"category";s:11:"Excel简历";s:4:"upid";s:1:"1";s:6:"status";s:1:"1";}i:4;a:4:{s:2:"id";s:1:"5";s:8:"category";s:9:"PPT简历";s:4:"upid";s:1:"1";s:6:"status";s:1:"1";}}
+?>

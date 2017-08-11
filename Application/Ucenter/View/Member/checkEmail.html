@@ -1,0 +1,60 @@
+<extend name="Common@Base:base" />
+<block name="content">
+	<div class="container" style="padding:20px">
+		<div class="row">
+			<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+				<div class="row">
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-center" style="color:#009688;padding:20px 0px">
+						<span><i class="fa fa-fw fa-check-circle fa-3x" ></i></span>
+					</div>
+					<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+						<h2>确认邮件已发送至您的邮箱<span>({$email})</span>！</h2>
+						<h3><a href="http://{$emailhost}" class="btn btn-primary" target="_blank">去验证</a></h3>
+						<p>未收到邮件？<button type="button" class="btn-primary btn-link">重新发送</button></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</block>
+<block name="js">
+	<script type="text/javascript">
+		$(window).ready(function(){
+			$("form").submit(function(){
+				var password = $("input[name='password']").val();
+				var checkPwd = $("input[name='checkPwd']").val();
+				var nickname = $("input[name='nickname']").val();
+				var datas = $(this).serialize();
+				var method = $(this).attr('method');
+				var _url  = $(this).attr('action');
+				
+				if(nickname.length < 6 || nickname.length >20){
+					message('用户名长度请在6至20位之间',0);
+					return false;
+				}
+				if(password !== checkPwd){
+					message('两次密码不一致，请重新输入！',0);
+					return false;
+				}
+				$.ajax({
+					data:datas,
+					url:_url,
+					dataType:"json",
+					type:method,
+					success:function(data){
+						message(data.message,data.status);
+						if(data.status == 1){
+							setTimeout(function(){window.location.href=data.url;},1000);
+						}
+					},
+					error:function(e){
+						message('error',0);
+						console.log(e.responseText);
+					}
+				})
+				return false;
+			})
+		})
+	</script>
+</block>

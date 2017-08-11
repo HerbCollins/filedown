@@ -1,0 +1,55 @@
+<extend name="Base:base" />
+<block name="content">
+	
+	<form action="{:U('uploadCover')}" enctype="multipart/form-data" method="post" id="cover">
+		封面<input type="file" name="cover" id="get_cover" />
+		<img src="" class="img_cover">
+		<input type="submit" value="提交" />
+	</form>
+
+	<form action="{:U('uploadFile')}" enctype="multipart/form-data" method="post" id="file" >
+		<input type="text" name="first_cover" id="first_cover">
+		<input type="text" name="cover" id="file_cover"  />
+		文件<input type="file" name="file" />
+		<input type="submit" value="提交" >
+	</form>
+</block>
+<block name="js">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#get_cover').change(function(){
+				$('#cover').submit();
+			})
+			$("form").on('submit',function(){
+				var datas = $(this).serialize();
+				var _url  = $(this).attr('action');
+				var method= $(this).attr('method');
+				var id    = $(this).attr('id');
+				$(this).ajaxSubmit({
+					data:datas,
+					url:_url,
+					dataType:"json",
+					type:method,
+					success:function(data){
+						if(data.status == 1){
+							alert(data.message);
+							if(id == 'cover'){
+								var covers = $('#file_cover').val();
+								if(covers.length > 0)
+									$('#file_cover').val(covers+","+data.id);
+								else{
+									$('.img_cover').attr('src',data.path);
+									$('#first_cover').val(data.id);
+									$('#file_cover').val(data.id);
+								}
+							}
+						}else{
+							alert(data.message);
+						}
+					}
+				})
+				return false;
+			})
+		})
+	</script>
+</block>

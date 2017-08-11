@@ -1,0 +1,619 @@
+[ 2017-08-07T12:28:00+08:00 ] ::1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `wm_category` [ RunTime:0.0103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.105363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016877s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0025s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.066612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009452s ]
+
+[ 2017-08-07T12:31:29+08:00 ] ::1 /jianli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `wm_category` [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-2.290189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0025s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2017-08-07T12:31:40+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/S43stc0CWqGKu7IfdsBXDsB3I6GYNaU0Cps86584SYs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0031s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10005 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wm_heart` [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: key G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 19 行.
+SQL: SHOW COLUMNS FROM `wm_category` [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.023608s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0031s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('9')  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-08-07T12:31:42+08:00 ] ::1 /jianli/index.php/Home/File/heart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-08-07T12:31:44+08:00 ] ::1 /jianli/index.php/Home/File/heart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-08-07T12:31:46+08:00 ] ::1 /jianli/index.php/Home/File/heart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-08-07T12:31:47+08:00 ] ::1 /jianli/index.php/Home/File/heart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-08-07T12:32:06+08:00 ] ::1 /jianli/index.php/Home/File/download/param/S43stc0CWqGKu7IfdsBXDsB3I6GYNaU0Cps86584SYs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-08-07T12:32:10+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/S43stc0CWqGKu7IfdsBXDsB3I6GYNaU0Cps86584SYs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0038s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10005 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_heart` [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: key G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 19 行.
+SQL: SHOW COLUMNS FROM `wm_category` [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008816s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('9')  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-08-07T12:49:52+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/iJuW7caWfEURhS-yGCBlXHlKxbBZ8G0J0m3scdlX-M0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0022s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10003 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wm_heart` [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: key G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 19 行.
+SQL: SHOW COLUMNS FROM `wm_category` [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.064178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025622s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0023s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('7')  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.080311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.080353s ]
+
+[ 2017-08-07T12:50:03+08:00 ] ::1 /jianli/index.php/Home/File/download/param/iJuW7caWfEURhS-yGCBlXHlKxbBZ8G0J0m3scdlX-M0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-08-07T12:51:39+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/iJuW7caWfEURhS-yGCBlXHlKxbBZ8G0J0m3scdlX-M0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10003 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wm_heart` [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: key G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 19 行.
+SQL: SHOW COLUMNS FROM `wm_category` [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007839s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0026s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('7')  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2017-08-07T12:51:42+08:00 ] ::1 /jianli/index.php/Home/File/heart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-08-07T12:52:51+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/iJuW7caWfEURhS-yGCBlXHlKxbBZ8G0J0m3scdlX-M0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0022s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10003 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wm_heart` [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: key G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 19 行.
+SQL: SHOW COLUMNS FROM `wm_category` [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0022s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('7')  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2017-08-07T12:53:15+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/iJuW7caWfEURhS-yGCBlXHlKxbBZ8G0J0m3scdlX-M0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10003 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wm_heart` [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: key G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 19 行.
+SQL: SHOW COLUMNS FROM `wm_category` [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0023s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('7')  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2017-08-07T12:54:05+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/iJuW7caWfEURhS-yGCBlXHlKxbBZ8G0J0m3scdlX-M0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10003 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_heart` [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: key G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 19 行.
+SQL: SHOW COLUMNS FROM `wm_category` [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0025s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('7')  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-08-07T12:54:25+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `wm_category` [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.023132s ]
+SQL: SHOW COLUMNS FROM `wm_ucenter` [ RunTime:0.0026s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0043s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-08-07T12:54:27+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/gGADc23yj9YrjJV_1BxPh8vBVW45tvy7ZucHoyyueB8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10004 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wm_heart` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wm_heart` WHERE `uid` = 9 AND `fid` = 10004 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: key G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 19 行.
+SQL: SHOW COLUMNS FROM `wm_category` [ RunTime:0.0044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009733s ]
+SQL: SHOW COLUMNS FROM `wm_ucenter` [ RunTime:0.0055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0032s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('8')  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2017-08-07T12:54:40+08:00 ] ::1 /jianli/index.php/Home/File/detail/id/iJuW7caWfEURhS-yGCBlXHlKxbBZ8G0J0m3scdlX-M0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`cate_id`,`page`,`first_cover`,`cover`,`filename`,`type`,`ext`,`size`,`heart`,`download` FROM `wm_file` WHERE `id` = 10003 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wm_heart` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `wm_heart` WHERE `uid` = 9 AND `fid` = 10003 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: key G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 19 行.
+SQL: SHOW COLUMNS FROM `wm_category` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007996s ]
+SQL: SHOW COLUMNS FROM `wm_ucenter` [ RunTime:0.0035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0022s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` IN ('7')  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\www\jianli\Application\Runtime\Cache\Home\fa7ffa96de7b9942da67aa18017d4db8.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-08-07T12:56:31+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `wm_category` [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.024931s ]
+SQL: SHOW COLUMNS FROM `wm_ucenter` [ RunTime:0.0026s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0022s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2017-08-07T14:45:26+08:00 ] ::1 /jianli/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `wm_category` [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.199111s ]
+SQL: SHOW COLUMNS FROM `wm_ucenter` [ RunTime:0.0026s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Undefined variable: sitname G:\www\jianli\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0023s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `savepath` FROM `wm_covers` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.192186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.162657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+

@@ -1,0 +1,66 @@
+<div class="container ucenter">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+				<h2 class="ucenter-nickname">
+					<div class="avatar_zone">
+						<div class="avatar_current">
+							<img src="{$uid|get_avatar_path}" class="ucenter_avatar" id="current_avatar_img">
+							<div class="mask">
+								<a href="javascript:void(0);" onclick="edit_avatar()"><i class="fa fa-fw fa-edit"></i></a>
+							</div>
+						</div>
+						<div class="avatar_select_zone">
+							<img src="http://open.wawmam.com/avatar/avatar_woman_1.jpg" data-avatar="1" data-save="{:U('Ucenter/Member/edit_avatar')}"/>
+							<img src="http://open.wawmam.com/avatar/avatar_woman_2.jpg" data-avatar="2" data-save="{:U('Ucenter/Member/edit_avatar')}"/>
+							<img src="http://open.wawmam.com/avatar/avatar_woman_3.jpg" data-avatar="3" data-save="{:U('Ucenter/Member/edit_avatar')}"/>
+							<img src="http://open.wawmam.com/avatar/avatar_woman_4.jpg" data-avatar="4" data-save="{:U('Ucenter/Member/edit_avatar')}"/>
+							<img src="http://open.wawmam.com/avatar/avatar_woman_5.jpg"  data-avatar="5" data-save="{:U('Ucenter/Member/edit_avatar')}" />
+							<img src="http://open.wawmam.com/avatar/avatar_woman_6.jpg" data-avatar="6" data-save="{:U('Ucenter/Member/edit_avatar')}" />
+						</div>
+					</div>
+					<span>{$uid|get_nickname}</span>
+				</h2>
+			</div>
+			<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+				<table class="table">
+					<tr>
+						<td class="profile-title"><i class="fa fa-fw fa-user"></i> 昵称</td>
+						<td class="edit-zone">
+							<span class="current-value">{$uid|get_nickname}</span>
+							<input type="text" class="get_new" value="{$uid|get_nickname}" data-save="{:U('Ucenter/Member/edit_nickname')}" name="nickname"> 
+							<span class="options">
+								<a href="javascript:void(0);" onclick="edit(this)"><i class="fa fa-fw fa-edit"></i></a>
+							</span>
+						</td>
+						<td class="profile-title"><i class="fa fa-fw fa-gift"></i> 生日</td>
+						<td class="edit-zone">
+							<span class="current-value">{$uid|get_user_birthday}</span>
+							<input type="date" id="datepicker" class="get_new" value="" data-save="{:U('Ucenter/Member/edit_birthday')}" name="birthday"> 
+							<span class="options">
+								<a href="javascript:void(0);" onclick="edit(this)"><i class="fa fa-fw fa-edit"></i></a>
+							</span>
+						</td>
+					</tr><tr>
+						<td class="profile-title"><i class="fa fa-fw fa-envelope"></i> 邮箱</td>
+						<td>{$uid|get_user_email} </td>
+						<td class="profile-title"><i class="fa fa-fw fa-database"></i> 积分</td>
+						<td>{$uid|get_user_score}</td>
+					</tr><tr>
+						<td class="profile-title"><i class="fa fa-fw fa-venus-mars"></i> 性别</td>
+						<td class="edit-zone">
+							<span class="current-value">{$uid|get_user_sex}</span>
+							<select class="get_new" data-save="{:U('Ucenter/Member/edit_sex')}" name="sex">
+								<option value="男">男</option>
+								<option value="女">女</option>
+							</select> 
+							<span class="options">
+								<a href="javascript:void(0);" onclick="edit(this)"><i class="fa fa-fw fa-edit"></i></a>
+							</span>
+						</td>
+						<td class="profile-title"><i class="fa fa-fw fa-vcard"></i> 会员</td>
+						<td>{$uid|get_user_vip}</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>

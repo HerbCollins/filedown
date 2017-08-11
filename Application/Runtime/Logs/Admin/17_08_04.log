@@ -1,0 +1,612 @@
+[ 2017-08-04T00:04:22+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadCover.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003065s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+
+[ 2017-08-04T00:04:32+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0029s ]
+SQL: INSERT INTO `wm_file` (`cover`,`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('http://open.wawmam.com/2017-08-04_598349863058e.jpg','5983498fb775f.jpg','2017-08-04/5983498fb775f.jpg','image/jpeg','469018','624e33ead6e9de5449ed5b2183c7ddac','805882571cd100b5b82d5dae3db3deda10971306','jpg','http://loop.wawmam.com/2017-08-04_5983498fb775f.jpg','0','0','1') [ RunTime:0.0019s ]
+
+[ 2017-08-04T01:22:40+08:00 ] ::1 /jianli/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.041149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.050421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.050530s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.311254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.311328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.072541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.072615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.042710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.042766s ]
+
+[ 2017-08-04T01:41:58+08:00 ] ::1 /jianli/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017668s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021085s ]
+
+[ 2017-08-04T01:42:15+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadCover.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0023s ]
+SQL: INSERT INTO `wm_covers` (`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('5983607653583.jpg','2017-08-04/5983607653583.jpg','image/jpeg','699068','f623ba49566c1020a1ae2d73da561fed','48fa749d46cb1ba1198b5ad6c05811adb447ad73','jpg','http://open.wawmam.com/2017-08-04_5983607653583.jpg','0','0','1') [ RunTime:0.0023s ]
+
+[ 2017-08-04T01:43:18+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadCover.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0023s ]
+SQL: INSERT INTO `wm_covers` (`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('598360b63dc39.jpg','2017-08-04/598360b63dc39.jpg','image/jpeg','216649','26064b19b95ebbc3ba81ba304451ba40','5cec7235a4f1ff4a235c7614b58ac5587446b7df','jpg','http://open.wawmam.com/2017-08-04_598360b63dc39.jpg','0','0','1') [ RunTime:0.0050s ]
+
+[ 2017-08-04T01:44:18+08:00 ] ::1 /jianli/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2017-08-04T01:44:31+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadCover.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: INSERT INTO `wm_covers` (`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('598360ff96eeb.jpg','2017-08-04/598360ff96eeb.jpg','image/jpeg','89844','49f37a9dca21be99843e2305e87f6744','a8c252f7a81815ac34af1660c6385c0f2a49064a','jpg','http://open.wawmam.com/2017-08-04_598360ff96eeb.jpg','0','0','1') [ RunTime:0.0018s ]
+
+[ 2017-08-04T01:44:40+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadCover.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0023s ]
+SQL: INSERT INTO `wm_covers` (`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('598361079642f.jpg','2017-08-04/598361079642f.jpg','image/jpeg','699068','f623ba49566c1020a1ae2d73da561fed','48fa749d46cb1ba1198b5ad6c05811adb447ad73','jpg','http://open.wawmam.com/2017-08-04_598361079642f.jpg','0','0','1') [ RunTime:0.0015s ]
+
+[ 2017-08-04T01:44:54+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0028s ]
+SQL: INSERT INTO `wm_file` (`cover`,`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('3,4','5983611689fef.doc','2017-08-04/5983611689fef.doc','application/msword','56832','e910d2cb07dfbd4eaa499c7ebae1965a','97821aa811d1514a4cf8d0c079ce6f76b855d30f','doc','http://loop.wawmam.com/2017-08-04_5983611689fef.doc','0','0','1') [ RunTime:0.0020s ]
+
+[ 2017-08-04T02:12:01+08:00 ] ::1 /jianli/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017558s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020647s ]
+
+[ 2017-08-04T02:16:40+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadCover.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0022s ]
+SQL: INSERT INTO `wm_covers` (`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('598368882b481.jpg','2017-08-04/598368882b481.jpg','image/jpeg','469018','624e33ead6e9de5449ed5b2183c7ddac','805882571cd100b5b82d5dae3db3deda10971306','jpg','http://open.wawmam.com/2017-08-04_598368882b481.jpg','0','0','1') [ RunTime:0.0018s ]
+
+[ 2017-08-04T02:16:51+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0025s ]
+SQL: INSERT INTO `wm_file` (`first_cover`,`cover`,`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('5','5','5983689303bab.jpg','2017-08-04/5983689303bab.jpg','image/jpeg','469018','624e33ead6e9de5449ed5b2183c7ddac','805882571cd100b5b82d5dae3db3deda10971306','jpg','http://loop.wawmam.com/2017-08-04_5983689303bab.jpg','0','0','1') [ RunTime:0.0020s ]
+
+[ 2017-08-04T02:19:16+08:00 ] ::1 /jianli/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2017-08-04T02:19:23+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadCover.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: INSERT INTO `wm_covers` (`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('5983692a9d3ab.jpg','2017-08-04/5983692a9d3ab.jpg','image/jpeg','469018','624e33ead6e9de5449ed5b2183c7ddac','805882571cd100b5b82d5dae3db3deda10971306','jpg','http://open.wawmam.com/2017-08-04_5983692a9d3ab.jpg','0','0','1') [ RunTime:0.0021s ]
+
+[ 2017-08-04T02:19:33+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0025s ]
+SQL: INSERT INTO `wm_file` (`first_cover`,`cover`,`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('6','6','598369354ec8c.doc','2017-08-04/598369354ec8c.doc','application/msword','358626','fb45af801a08bc06bc4c53522dbe51d4','d5b0fa1818c5787645a580c2fd6a31c39a7f2034','doc','http://loop.wawmam.com/2017-08-04_598369354ec8c.doc','0','0','1') [ RunTime:0.0018s ]
+
+[ 2017-08-04T02:21:55+08:00 ] ::1 /jianli/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-08-04T02:22:03+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadCover.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: INSERT INTO `wm_covers` (`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('598369cb1e134.jpg','2017-08-04/598369cb1e134.jpg','image/jpeg','468962','21abd7779dbe407f3ccc029ad6956321','69c2976891bc8ccfbd1729b8ee56e51bade728ff','jpg','http://open.wawmam.com/2017-08-04_598369cb1e134.jpg','0','0','1') [ RunTime:0.0081s ]
+
+[ 2017-08-04T02:22:13+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0026s ]
+SQL: INSERT INTO `wm_file` (`first_cover`,`cover`,`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('7','7','598369d5692df.doc','2017-08-04/598369d5692df.doc','application/msword','224682','236bf798e524478bb3b3671070a6cd2e','020975c39278e555f0feeded0f943fd09cda22f7','doc','http://loop.wawmam.com/2017-08-04_598369d5692df.doc','0','0','1') [ RunTime:0.0043s ]
+
+[ 2017-08-04T02:23:42+08:00 ] ::1 /jianli/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.039639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.029967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020951s ]
+
+[ 2017-08-04T02:23:50+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadCover.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0023s ]
+SQL: INSERT INTO `wm_covers` (`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('59836a35bb2f9.jpg','2017-08-04/59836a35bb2f9.jpg','image/jpeg','466520','a39235ec6896a9fcf50a7c2931fbb9a1','fc84aed6c41ff10f5172c2aeed80864b466af2db','jpg','http://open.wawmam.com/2017-08-04_59836a35bb2f9.jpg','0','0','1') [ RunTime:0.0024s ]
+
+[ 2017-08-04T02:24:00+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0023s ]
+SQL: INSERT INTO `wm_file` (`first_cover`,`cover`,`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('8','8','59836a401c1dd.doc','2017-08-04/59836a401c1dd.doc','application/msword','263294','8a07b99b31b1882bbdaa0fce9bc7191f','c08ac7b6d902221c140f2c9e27a567b89b66e88c','doc','http://loop.wawmam.com/2017-08-04_59836a401c1dd.doc','0','0','1') [ RunTime:0.0018s ]
+
+[ 2017-08-04T02:25:01+08:00 ] ::1 /jianli/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2017-08-04T02:25:08+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadCover.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0025s ]
+SQL: INSERT INTO `wm_covers` (`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('59836a83dcd33.jpg','2017-08-04/59836a83dcd33.jpg','image/jpeg','398392','81d7b9047c1ef92397fb107ac10b6a3b','39ee1e03784b924b9349d1482dee436afd5635e5','jpg','http://open.wawmam.com/2017-08-04_59836a83dcd33.jpg','0','0','1') [ RunTime:0.0020s ]
+
+[ 2017-08-04T02:25:35+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0028s ]
+SQL: INSERT INTO `wm_file` (`first_cover`,`cover`,`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('9','9','59836a9ec0a01.doc','2017-08-04/59836a9ec0a01.doc','application/msword','331776','19d22b1739f5d02d78cb15a3be14cbb5','7dce9ff0e97ed2820dbca6df84cc0c7e988d4884','doc','http://loop.wawmam.com/2017-08-04_59836a9ec0a01.doc','0','0','1') [ RunTime:0.0021s ]
+
+[ 2017-08-04T02:26:15+08:00 ] ::1 /jianli/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017527s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020615s ]
+
+[ 2017-08-04T02:27:20+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadCover.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0027s ]
+SQL: INSERT INTO `wm_covers` (`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('59836b07b8e9d.jpg','2017-08-04/59836b07b8e9d.jpg','image/jpeg','521431','e951cf6431756a20c9df4075ad7baaaf','2e8980dd7c546330df10b8ea41e7f664714c7443','jpg','http://open.wawmam.com/2017-08-04_59836b07b8e9d.jpg','0','0','1') [ RunTime:0.0060s ]
+
+[ 2017-08-04T02:27:31+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0031s ]
+SQL: INSERT INTO `wm_file` (`first_cover`,`cover`,`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('10','10','59836b12b6d5f.doc','2017-08-04/59836b12b6d5f.doc','application/msword','394752','47169545f06fc721e9559824e472f3da','08e8b464b4a3f3884581e9dbe1e581516afd8a60','doc','http://loop.wawmam.com/2017-08-04_59836b12b6d5f.doc','0','0','1') [ RunTime:0.0064s ]
+
+[ 2017-08-04T02:28:51+08:00 ] ::1 /jianli/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-08-04T02:28:58+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadCover.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0026s ]
+SQL: INSERT INTO `wm_covers` (`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('59836b6a2c0db.jpg','2017-08-04/59836b6a2c0db.jpg','image/jpeg','602659','78137ef3f8930d37eb507f7428c946ae','c4e43cbe101d540b26804f6df785592c873f7ccb','jpg','http://open.wawmam.com/2017-08-04_59836b6a2c0db.jpg','0','0','1') [ RunTime:0.0367s ]
+
+[ 2017-08-04T02:29:09+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: INSERT INTO `wm_file` (`first_cover`,`cover`,`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('11','11','59836b73c0884.doc','2017-08-04/59836b73c0884.doc','application/msword','2459136','ed14c33e53f17a75ae6da28b15d2fe04','c61d199901c68c681ec1cca9eb42121dc2984635','doc','http://loop.wawmam.com/2017-08-04_59836b73c0884.doc','0','0','1') [ RunTime:0.0024s ]
+
+[ 2017-08-04T02:31:31+08:00 ] ::1 /jianli/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2017-08-04T02:32:40+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadCover.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0024s ]
+SQL: INSERT INTO `wm_covers` (`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('59836c4798595.jpg','2017-08-04/59836c4798595.jpg','image/jpeg','468732','df6efc622594b2d4b896a002f9dc249d','4761b17375a4417ad5d52aebe148b480518636ef','jpg','http://open.wawmam.com/2017-08-04_59836c4798595.jpg','0','0','1') [ RunTime:0.0043s ]
+
+[ 2017-08-04T02:32:53+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0026s ]
+SQL: INSERT INTO `wm_file` (`first_cover`,`cover`,`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('12','12','59836c5511e3c.doc','2017-08-04/59836c5511e3c.doc','application/msword','218338','5c213a2cb5cb33098157d2e46be5f2ac','52aa2321b4ef0f0673ef6e5fbbe707b061e02a69','doc','http://loop.wawmam.com/2017-08-04_59836c5511e3c.doc','0','0','1') [ RunTime:0.0040s ]
+
+[ 2017-08-04T02:34:26+08:00 ] ::1 /jianli/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2017-08-04T02:34:32+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadCover.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `wm_covers` [ RunTime:0.0034s ]
+SQL: INSERT INTO `wm_covers` (`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('59836cb7f1bf2.jpg','2017-08-04/59836cb7f1bf2.jpg','image/jpeg','352737','a4e6acc9ffd462cdbb943b6560db5f92','9fd4b52689d96d4a087308835030a90974eb45b6','jpg','http://open.wawmam.com/2017-08-04_59836cb7f1bf2.jpg','0','0','1') [ RunTime:0.0022s ]
+
+[ 2017-08-04T02:34:41+08:00 ] ::1 /jianli/index.php/Admin/Index/uploadFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\www\jianli\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 46 行.
+NOTIC: [8] Undefined index: saveName G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 81 行.
+NOTIC: [8] Undefined index: custom_fields G:\www\jianli\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `wm_file` [ RunTime:0.0025s ]
+SQL: INSERT INTO `wm_file` (`first_cover`,`cover`,`filename`,`savename`,`type`,`size`,`md5`,`sha1`,`ext`,`savepath`,`heart`,`download`,`status`) VALUES ('13','13','59836cc16fb53.doc','2017-08-04/59836cc16fb53.doc','application/msword','38058','a085277e2998eadc590127cf52a6343c','8345d51baab1094524ef23c9926f4e2e52c3469a','doc','http://loop.wawmam.com/2017-08-04_59836cc16fb53.doc','0','0','1') [ RunTime:0.0020s ]
+

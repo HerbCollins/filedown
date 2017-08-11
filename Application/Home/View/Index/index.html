@@ -1,0 +1,77 @@
+<extend name="Common@Base:base" />
+<block name="content">
+	<div class="container header">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<span><i class="fa fa-fw fa-yen"></i>2元 全站无限下载</span>
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+				<span><i class="fa fa-fw fa-file-word-o"></i> 共有 {$count} 套简历</span>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+				<span><i class="fa fa-fw fa-heart"></i> 共被收藏 {$heart} 次</span>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+				<span><i class="fa fa-fw fa-cloud-download"></i> 共被下载 {$download} 次</span>
+			</div>
+		</div>
+	</div>
+	<div class="container boxs">
+		<div class="row">
+			<volist name="list" id="file">
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+					<div class="box">
+						<a href="{:U('File/detail',array('id'=>encode($file['id'])))}"  target="_blank"><img src="{$file.first_cover|getImgPath}?	
+imageMogr2/auto-orient/thumbnail/!20p/blur/1x0/quality/75|imageslim" title="知图网简历模板" alt="知图网简历模板免费下载" ></a>
+						<div class="mask text-center">
+							<div class="row">
+								<div class="col-xs-2">
+									<span><i class="fa fa-fw fa-file-word-o"></i></span>
+								</div>
+								<div class="col-xs-5">
+									<span><i class="fa fa-fw fa-heart"></i> {$file.heart}</span>
+								</div>
+								<div class="col-xs-5">
+									<span><i class="fa fa-fw fa-cloud-download"></i> {$file.download}</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</volist>
+		</div>
+	</div>
+
+	<div class="container page">
+		<nav aria-label="Page navigation">
+		  {$page}
+		</nav>
+	</div>
+	</block>
+	<block name="js">
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var width = $(".box").find('img').height(
+					$('.box').width()*1.4
+					);
+
+
+				var scroll = t = 0;
+				$(window).scroll(function(){
+					scroll = $(document).scrollTop();
+					if(scroll > t){
+						$('.navbar').addClass('navbar-mini');
+					}else{
+						if($('.navbar').hasClass('navbar-mini'))
+							$('.navbar').removeClass('navbar-mini');
+					}
+					t = scroll;
+				})
+			})
+			
+			
+		</script>
+	</block>

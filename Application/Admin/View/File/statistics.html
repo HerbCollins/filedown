@@ -1,0 +1,247 @@
+<extend name="Base:base" />
+<block name="content">
+	
+	<!-- page heading start-->
+        <div class="page-heading">
+            <h3>
+                文件统计
+            </h3>
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+			<div class="row">
+				<div class="col-xs-3 state-overview">
+					<div class="panel purple">
+                        <div class="symbol">
+                            <i class="fa fa-file-word-o"></i>
+                        </div>
+                        <div class="state-value">
+                            <div class="value">{$wordcount}</div>
+                            <div class="title">WORD总数</div>
+                        </div>
+					</div>
+				</div>
+				<div class="col-xs-3 state-overview">
+					<div class="panel purple">
+                        <div class="symbol">
+                            <i class="fa fa-file-o"></i>
+                        </div>
+                        <div class="state-value">
+                            <div class="value">{$psdcount}</div>
+                            <div class="title">PSD文档总数</div>
+                        </div>
+					</div>
+				</div>
+				<div class="col-xs-3 state-overview">
+					<div class="panel purple">
+                        <div class="symbol">
+                            <i class="fa fa-file-powerpoint-o"></i>
+                        </div>
+                        <div class="state-value">
+                            <div class="value">{$pptcount}</div>
+                            <div class="title">PPT文档总数</div>
+                        </div>
+					</div>
+				</div>
+				<div class="col-xs-3 state-overview">
+					<div class="panel purple">
+                        <div class="symbol">
+                            <i class="fa fa-file-excel-o"></i>
+                        </div>
+                        <div class="state-value">
+                            <div class="value">{$excelcount}</div>
+                            <div class="title">Excel文档总数</div>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3">
+					<div class="panel">
+						<div class="panel-heading">
+							word模板下载量
+						</div>
+						<div class="panel-body">
+							<div id="word-download-line"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="panel">
+						<div class="panel-heading">
+							PSD模板下载量
+						</div>
+						<div class="panel-body">
+							<div id="psd-download-line"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="panel">
+						<div class="panel-heading">
+							ppt模板下载量
+						</div>
+						<div class="panel-body">
+							<div id="ppt-download-line"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="panel">
+						<div class="panel-heading">
+							excel模板下载量
+						</div>
+						<div class="panel-body">
+							<div id="excel-download-line"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3">
+					<div class="panel">
+						<div class="panel-heading">
+							word模板收藏量
+						</div>
+						<div class="panel-body">
+							<div id="word-heart-line"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="panel">
+						<div class="panel-heading">
+							PSD模板收藏量
+						</div>
+						<div class="panel-body">
+							<div id="psd-heart-line"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="panel">
+						<div class="panel-heading">
+							ppt模板收藏量
+						</div>
+						<div class="panel-body">
+							<div id="ppt-heart-line"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="panel">
+						<div class="panel-heading">
+							excel模板收藏量
+						</div>
+						<div class="panel-body">
+							<div id="excel-heart-line"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</block>
+<block name="js">
+<script type="text/javascript">
+	$(window).ready(function(){
+		$.ajax({
+			url:"{:U('get_download_line')}",
+			type:"post",
+			dataType:"json",
+			success:function(rst){
+				day_data_word = rst.word;
+				day_data_psd = rst.psd;
+				day_data_ppt = rst.ppt;
+				day_data_excel = rst.excel;
+				Morris.Line({
+				    element: 'word-download-line',
+				    data: day_data_word,
+				    xkey: 'day',
+				    ykeys: ['value'],
+				    labels: ['下载'],
+				    lineColors:['#1FB5AD'],
+				    parseTime: false
+				});
+				Morris.Line({
+				    element: 'psd-download-line',
+				    data: day_data_psd,
+				    xkey: 'day',
+				    ykeys: ['value'],
+				    labels: ['下载'],
+				    lineColors:['#1FB5AD'],
+				    parseTime: false
+				});
+				Morris.Line({
+				    element: 'ppt-download-line',
+				    data: day_data_ppt,
+				    xkey: 'day',
+				    ykeys: ['value'],
+				    labels: ['下载'],
+				    lineColors:['#1FB5AD'],
+				    parseTime: false
+				});
+				Morris.Line({
+				    element: 'excel-download-line',
+				    data: day_data_excel,
+				    xkey: 'day',
+				    ykeys: ['value'],
+				    labels: ['下载'],
+				    lineColors:['#1FB5AD'],
+				    parseTime: false
+				});
+			}
+		});
+
+		$.ajax({
+			url:"{:U('get_heart_line')}",
+			type:"post",
+			dataType:"json",
+			success:function(rst){
+				day_data_word = rst.word;
+				day_data_psd = rst.psd;
+				day_data_ppt = rst.ppt;
+				day_data_excel = rst.excel;
+				Morris.Line({
+				    element: 'word-heart-line',
+				    data: day_data_word,
+				    xkey: 'day',
+				    ykeys: ['value'],
+				    labels: ['收藏'],
+				    lineColors:['#eb4c4c'],
+				    parseTime: false
+				});
+				Morris.Line({
+				    element: 'psd-heart-line',
+				    data: day_data_psd,
+				    xkey: 'day',
+				    ykeys: ['value'],
+				    labels: ['收藏'],
+				    lineColors:['#eb4c4c'],
+				    parseTime: false
+				});
+				Morris.Line({
+				    element: 'ppt-heart-line',
+				    data: day_data_ppt,
+				    xkey: 'day',
+				    ykeys: ['value'],
+				    labels: ['收藏'],
+				    lineColors:['#eb4c4c'],
+				    parseTime: false
+				});
+				Morris.Line({
+				    element: 'excel-heart-line',
+				    data: day_data_excel,
+				    xkey: 'day',
+				    ykeys: ['value'],
+				    labels: ['收藏'],
+				    lineColors:['#eb4c4c'],
+				    parseTime: false
+				});
+			}
+		})
+	})
+	
+</script>
+</block>
